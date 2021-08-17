@@ -18,6 +18,7 @@ To complete this task, the following was used:
 -------------------
 * [Heroku](#heroku)
 * [Commands](#commands)
+* [Screenshot] (#screenshot)
 * [License](#license)
 * [References](#references)
 * [Questions](#questions)
@@ -28,6 +29,11 @@ Deployed Link: https://vast-springs-09222.herokuapp.com/ <br>
 
 ## Commands
 npm start
+
+## Screenshot
+<b>Image displays budget tracker working online and offline</b><br> 
+
+![Screenshot](image.PNG)
 
 ## License 
 [MIT License](https://opensource.org/licenses/MIT)
