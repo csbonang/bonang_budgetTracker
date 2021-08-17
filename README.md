@@ -18,7 +18,7 @@ To complete this task, the following was used:
 -------------------
 * [Heroku](#heroku)
 * [Commands](#commands)
-* [Screenshot] (#screenshot)
+* [Screenshot](#screenshot)
 * [License](#license)
 * [References](#references)
 * [Questions](#questions)
