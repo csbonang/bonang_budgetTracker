@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
    <!-- deploy a manifest  -->
-   <link rel="manifest" href="manifest.json">
+   <!-- <link rel="manifest" href="manifest.json"> -->
+   <link rel="manifest" href="manifest.webmanifest"> 
   <title>Budget Tracker</title>
 </head>
 <body>
@@ -43,6 +44,17 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="indexdB.js"></script>
   <script src="index.js"></script>
+  <!-- load this particular service worker.js. We need this if statement because internet explorer does not have js-->
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("service-worker.js").then(reg => {
+          console.log("We found your service worker file!", reg);
+        });
+      });
+    }
+  </script>
 </body>
 </html>
